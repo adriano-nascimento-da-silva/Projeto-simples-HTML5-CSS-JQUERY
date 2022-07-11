@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <script src="https://kit.fontawesome.com/393db28875.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Prova Integradora</title>
+</head>
+
+<body>
+    <header class="header-nav">
+        <nav class="menu-headernav">
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cursos</a>
+                    <ul>
+                        <li><a href="#">Python</a></li>
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Mentoria</a></li>
+                <li><a href="#">Empresa</a></li>
+                <li><a href="#">Trabalhe Conosco</a></li>
+                <li><a href="#">Login<i class="fa-solid fa-user-group"></i></a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Cursos de Programação</h1>
+            <p>Aprenda HTML, CSS e Javascript</p>
+        </div>
+    </header>
+
+
+    <form class="forms" action="#" method="get">
+        <fieldset>
+            <legend>Faça seu cadastro</legend>
+
+            <label for="Nome">Nome*</label>
+            <input type="text" maxlength="30" placeholder="Digite seu nome" required>
+
+            <label for="Idade">Idade</label>
+            <input type="number" required>
+
+            <p>Sexo:</p>
+            <label>
+                <input type="radio" name="sexo" value="M">
+                Masculino
+            </label>
+
+            <label>
+                <input type="radio" name="sexo" value="F">
+                Feminino
+            </label>
+
+            <label>
+                <input type="radio" name="sexo" value="F">
+                Demais Gêneros
+            </label>
+
+            <label for="#">Cep*</label>
+            <input id="cep" type="text" maxlength="30" placeholder="Digite seu CEP" required>
+
+            <label>Endereço* </label>
+            <input type="text" maxlength="30" placeholder="Digite seu nome" required>
+
+            <label for="#">Telefone</label>
+            <input id="telFixo" type="tel" placeholder="Ex:(55)21-9999-9999" required>
+
+            <label for="#">Telefone Celular*</label>
+            <input id="telCelular" type="tel" placeholder="Ex:(55)21-2222-2222" required>
+
+            <label for="#">E-mail*</label>
+            <input type="text" maxlength="50" placeholder="Digite seu e-mail" required>
+        </fieldset>
+        <input type="submit" value="Enviar" id="button">
+        <input type="reset" value="Redefinir" id="button">
+    </form>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="social-media">Copyright &copy; Your Website 2022</p>
+        <div class="icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-google"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141313;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-nav {
+    background-image: url(/img/bg-3.jpg);
+    background-repeat: center;
+    background-size: cover;
+    height: 700px;
+    margin-top: -10px;
+    margin-bottom: 150px;
+}
+
+.menu-headernav ul {
+    margin: 10px 20px 0 0;
+    text-align: right;
+}
+
+.menu-headernav li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px 0 0;
+    padding: 15px;
+}
+
+/* Esconde submenu do Menu */
+
+.menu-headernav li ul {
+    position: absolute;
+    display: none;
+    background-color: #b2abab;  
+}
+
+/* Exibe submenu do Menu */
+
+.menu-headernav li:hover ul {
+    display: block;
+}
+/* Estilizando submenu*/
+
+.menu-headernav li ul li {
+   display: block;
+   width: 160px;
+   text-align:left;
+   }
+
+/* Estilização do ícone usuário */
+
+.menu-headernav ul li i {
+    font-size: 20px;
+    color: #425564;
+}
+
+/* Estilizando links*/
+.menu-headernav a {
+    color: #425564;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.menu-headernav a:hover {
+    color: #fff;
+    transition: color .3s linear;
+}
+
+/* Estilização H1 e PARÁGRAFO dos textos ao centro da figura */
+
+.hero-content{
+    text-align: center;
+    color: #fff;
+    margin-top: 150px;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 34px;
+    text-shadow: 3px 3px 2px #333; /* valores: horizontal, vertical, esfumaçamento, cor*/
+}
+
+.hero-content p{
+    font-size: 20px;
+    color: #425564;
+    font-weight: 900;
+    display: inline-block;
+    padding: 10px;
+}
+/* formulário */
+
+.forms{
+    padding: 30px;
+    font-size: 18px;  
+}
+
+.forms fieldset {
+    background-image: url(/img/Programacao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid #49bf9d;
+    border-radius: 15px;
+}
+
+.forms legend {
+    font-size: 50px;
+    color: #49bf9d;
+    padding-bottom: 28px;
+    margin-left: 50px;
+}
+
+input {
+    padding: 8px;
+    margin: 8px 10px 10px 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    color:#141313;
+    font-size: 16px;
+    border:3px solid #49bf9d;
+}
+input[type="radio"]{
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+input:focus {
+    border: 3px solid #49bf9d;
+    outline: none;
+}
+
+label {
+    display: block;
+    margin: 0 0 -7px 30px;
+    color:#49bf9d
+}
+
+p {
+    display: block;
+    margin: 8px 0 1px 30px;
+    color:#49bf9d;
+}
+
+#button {
+    color: #fff;
+    border: 3px solid #49bf9d;
+    background-color: #49bf9d;
+    padding-top: 10px;
+    margin-top: 30px;
+    transition: all .3s linear;
+    width: 20%;
+}
+
+#button:hover {
+    color: #49bf9d;
+    border: 3px solid #49bf9d;
+    background-color: #fff;
+}
+
+/* Footer */
+.footer {
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+.footer::before {
+    content: " ";
+    border-top: 1px solid #49bf9d;
+    width: 50%;
+    position: absolute;
+    left: 27%;
+    padding-top: 11px;
+}
+
+.social-media {
+    color:#49bf9d;
+    padding: 38px 0 3px 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.icons, i {
+    color: #49bf9d;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.icons, i:hover {
+    color: #fff;
+    font-size: 30px;
+    transition: font-size .5s ease-in-out;
+
+}
